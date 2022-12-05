@@ -1,0 +1,23 @@
+
+.profile-box{
+    background-color:lightblue;
+}
+.Vergil-Chair {
+    border-color: blue;
+    height: 200px;
+    width: 300px;
+  }
+  .wrapper {
+    background-color: rgba(15, 19, 252, 0.921);
+    padding: 20px;
+    padding: 20px;
+    z-index: 0;
+  }
+  html { 
+    background-image: ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
