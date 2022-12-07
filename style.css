@@ -1,5 +1,23 @@
-
-.profile-box{
+/*
+=================================================
+MISC
+=================================================
+*/
+.to-top{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  font-size: 40px;
+}
+/*
+background
+*/
+body{
+  background: rgb(12,97,110);
+background: linear-gradient(90deg, rgba(12,97,110,1) 0%, rgba(30,11,142,1) 100%);
+}
+/*Boxes*/
+.profile-box1{
     background-color:lightblue;
 }
 .Vergil-Chair {
@@ -13,11 +31,44 @@
     padding: 20px;
     z-index: 0;
   }
-  html { 
-    background-image: ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  .profile-box2{
+    background-color: rgb(57, 212, 212);
   }
+  /*NavBar*/
+  .navbar-brand {
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+  .navbar-brand:hover{
+    background-color: dodgerblue;
+  }
+  .nav-item:hover{
+    background-color: dodgerblue;
+  }
+  /*Buttons*/
+  .button1 {
+    background-color:aquamarine;
+    margin-top: 20px;
+    padding:10px;
+  }
+  .button1:hover{
+    background-color: dodgerblue;
+  }
+  .button2 {
+    background-color: rgb(100, 171, 237);
+    margin-top: 20px;
+    padding:10px;
+  }
+  .button2:hover{
+    background-color: dodgerblue;
+  }
+  .button3 {
+    background-color: rgb(104, 56, 237);
+    margin-top: 20px;
+    padding:10px;
+  }
+  .button3:hover{
+    background-color: dodgerblue;
+  }
+
   
