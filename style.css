@@ -19,11 +19,23 @@ background: linear-gradient(90deg, rgba(12,97,110,1) 0%, rgba(30,11,142,1) 100%)
 /*Boxes*/
 .profile-box1{
     background-color:lightblue;
+    
+}
+.profile-box2{
+  background-color: rgb(242, 63, 53);
+  padding-bottom:20px;
+}
+.profile-box3{
+  background-color: rgb(106, 183, 202);
+  border-bottom: 20px solid #000;
+}
+.profile-box4{
+  background-color: rgb(100, 171, 237);
 }
 .Vergil-Chair {
     border-color: blue;
-    height: 200px;
-    width: 300px;
+    height: 300px;
+    width: 400px;
   }
   .wrapper {
     background-color: rgba(15, 19, 252, 0.921);
@@ -31,9 +43,10 @@ background: linear-gradient(90deg, rgba(12,97,110,1) 0%, rgba(30,11,142,1) 100%)
     padding: 20px;
     z-index: 0;
   }
-  .profile-box2{
-    background-color: rgb(57, 212, 212);
+  .div4{
+    text-align: right;
   }
+  
   /*NavBar*/
   .navbar-brand {
     font-weight: 900;
@@ -47,7 +60,7 @@ background: linear-gradient(90deg, rgba(12,97,110,1) 0%, rgba(30,11,142,1) 100%)
   }
   /*Buttons*/
   .button1 {
-    background-color:aquamarine;
+    background-color:rgb(106, 183, 202);
     margin-top: 20px;
     padding:10px;
   }
@@ -63,7 +76,7 @@ background: linear-gradient(90deg, rgba(12,97,110,1) 0%, rgba(30,11,142,1) 100%)
     background-color: dodgerblue;
   }
   .button3 {
-    background-color: rgb(104, 56, 237);
+    background-color: rgb(68, 3, 246);
     margin-top: 20px;
     padding:10px;
   }
