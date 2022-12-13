@@ -1,8 +1,16 @@
+@font-face {
+  font-family: "Devil May Cry";
+  src: url("assets/devil_may_cry.woff") format('woff');
+}
 /*
 =================================================
 MISC
 =================================================
 */
+h1{
+  font-family:'Devil May Cry', sans-serif;
+  color:black;
+}
 .to-top{
   position: fixed;
   bottom: 30px;
@@ -31,6 +39,10 @@ background: linear-gradient(90deg, rgba(12,97,110,1) 0%, rgba(30,11,142,1) 100%)
 }
 .profile-box4{
   background-color: rgb(100, 171, 237);
+  border-bottom: 20px solid #000;
+}
+.profile-box5{
+  background-color: rgb(68, 3, 246);
 }
 .Vergil-Chair {
     border-color: blue;
@@ -83,5 +95,3 @@ background: linear-gradient(90deg, rgba(12,97,110,1) 0%, rgba(30,11,142,1) 100%)
   .button3:hover{
     background-color: dodgerblue;
   }
-
-  
