@@ -12,20 +12,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="icon"type="image/x-icon" href="assets/images/favicon.jpg">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Kalam:wght@400;700&family=Monoton&family=Press+Start+2P&family=Righteous&family=Rubik+Glitch&family=Teko:wght@500&display=swap" rel="stylesheet">
 
         <!-- CSS only -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">  
         <link rel="stylesheet" href="style.css">
-        
-    </head>
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+      </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <!--Navbar-->
-        <nav class="navbar navbar-expand-md navbar-dark fixed bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Vergil Chair</a>
+        <nav class="navbar navbar-expand-md navbar-dark fixed bg-dark" id="navbar">
+            <div class="container-fluid" id="vergil">
+                <a class="navbar-brand buttons" href="#vergil">Vergil Chair</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -33,13 +37,13 @@
              <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Orgin of the chair</a>
+                            <a class="active nav-link buttons" href="#origin">Orgin of the Chair</a>
                         </li>
                         <li class="nav-item">
-                            <a class=" active nav-link" href="#">Rise of the chair</a>
+                            <a class=" active nav-link buttons" href="#rise">Rise of the Chair</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">The chair now</a>
+                            <a class="nav-link active buttons" href="#now" tabindex="-1" aria-disabled="true">The Chair Now</a>
                         </li>
                     </ul>
                 </div>
@@ -49,8 +53,8 @@
          <div class="profile-box1">
             <main class="container my-6">
                 <div class="p-5 rounded text-center">
-                    <h1>The Story of the Vergil Chair</h1>
-                    <p class="lead">This website goes over the understandable history behind the meme of Vergil from Devil May Cry 5 sitting in a plastic chair</p>
+                    <h1 class="DMC">The Story of the Vergil Chair</h1>
+                    <p class="lead loredrop">This website goes over the understandable history behind the meme of Vergil from Devil May Cry 5 sitting in a plastic chair</p>
                     <img src="assets/images/Vergil_Chair.jpg" class="Vergil-Chair" alt="Vergil_Chair.jpg">
                 
                 </div>
@@ -60,41 +64,41 @@
           <div class="container text-center">
             <div class="row">
               <div class="col">
-                <button type="button" class="button1">Origin of the Chair</button>
+                <a href="#origin"><button type="button" class="button1 buttons">Origin of the Chair</button></a>
 
               </div>
               <div class="col">
-                <button type="button" class="button2">Rise of the Chair</button>
+                <a href="#rise"><button type="button" class="button2 buttons">Rise of the Chair</button></a>
               </div>
               <div class="col">
-                <button type="button" class="button3">The Chair now</button>
+                <a href="#now"><button type="button" class="button3 buttons">The Chair Now</button></a>
               </div>
             </div>
           </div>
           <!--DMC 5 and Veril Explanation-->
           <main class="container my-2">
             <div class="p-5 rounded text-center profile-box2">
-              <h1>Wait, what's Devil May Cry 5 and Vergil Chair?</h1>
-              <p class="h7">Devil May Cry 5 is a 2019 action-adventure game developed and published by Capcom. The game follows Nero, Dante, V, and Vergil as they stylishly fight off a demonic invasion. The character "Vergil" is the final boss of the game and the introduction to the fight involves him sitting in a demonic chair awaiting Dante's arrival before a final climactic duel. Little did Capcom know, this simple demonic chair would be turned into one of the most iconic memes of the entire franchise.</p>
+              <h1 class="heading">Wait, what's Devil May Cry 5 and Vergil Chair?</h1>
+              <p class="h7 loredrop">Devil May Cry 5 is a 2019 action-adventure game developed and published by Capcom. The game follows Nero, Dante, V, and Vergil as they stylishly fight off a demonic invasion. The character "Vergil" is the final boss of the game and the introduction to the fight involves him sitting in a demonic chair awaiting Dante's arrival before a final climactic duel. Little did Capcom know, this simple demonic chair would be turned into one of the most iconic memes of the entire franchise.</p>
               <img src="assets/images/Alpha.jpg" class="Vergil-Chair" alt="Vergil_Chair.jpg">
               <img src="assets/images/Norm_Chair.jpg" class="Vergil-Chair" alt="Vergil_Chair.jpg">
             </div>
           </main> 
 
           <!--Origin of the Chair-->    
-          <div class="py-5 profile-box3">
+          <div class="py-5 profile-box3" id="origin">
             <div class="container py-5">
               <div class="row">
                 <div class="col-sm-8 text-center">
-                    <h1 class="pb-1 fw-bold pb-5">Origin of the Chair</h1>
+                    <h1 class="pb-1 fw-bold pb-5 heading">Origin of the Chair</h1>
                     <iframe width="460" height="415" src="https://www.youtube.com/embed/SFarW_wuXIg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div class="col-sm-4 pt-5">
-                  <h3 class="fw-bold">Origin of the Chair Continued</h3>
-                  <p>
+                  <h3 class="fw-bold heading">Origin of the Chair Continued</h3>
+                  <p class="loredrop">
                     It all started on September 23rd 2020. User "thezippotm" uploaded a mod for Devil May Cry 5 that changed Vergil's demonic chair (that he sits upon waiting for his climactic final duel with Dante) into an everyday plastic yard chair.
                   </p>
-                  <p>
+                  <p class="loredrop">
                     The same day, youtube user "Oatomiru" uploaded a video of this mod simply labeled "Vergil Chair".  The absuridty of this normally extremely menacing and serious character sitting in a cheap plastic lawn chair would baffle and amuse the masses. As of time of writing, it has reached 2.7 Million views.
                   </p>
                 </div>
@@ -103,21 +107,21 @@
           </div>
             
           <!--Rise of the Chair-->
-          <div class="py-5 profile-box4">
+          <div class="py-5 profile-box4" id="rise">
             <div class="container py-5">
               <div class="row">
                 <div class="col-sm-6 pt-5">
-                  <h3 class="fw-bold text-center">Rise of the Chair continued</h3>
-                  <p>
+                  <h3 class="fw-bold text-center heading">Rise of the Chair continued</h3>
+                  <p class="loredrop">
                     The mod would quickly spike in popularity as further videos playing off the joke were formed. Videos further adding upon the joke would then be formed. Such as having Vergil slurp a drink mid-sentence or animating the scene and adding scraping noises to the chair. Both videos getting many views.
                   </p>
-                  <p>
+                  <p class="loredrop">
                     These videos would not only further boost the popularity of a meme, but get it to a sweet spot where people could twist the meme to their own liking. As more people found ways to adapt their humor, even more people would end up witnessing this meme. Many more videos of this type would go on to be made until the meme would reach it's peak form of evolution.
                   </p>
                 </div>
                 
                 <div class="col-sm-6 video text-center">
-                    <h1 class="pb-1 fw-bold pb-5">Rise of the Chair</h1>
+                    <h1 class="pb-1 fw-bold pb-5 heading">Rise of the Chair</h1>
                     
                     <iframe width="460" height="250" src="https://www.youtube.com/embed/-GCco3e6dWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <iframe width="460" height="250" src="https://www.youtube.com/embed/1akDGiTt4aM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -126,22 +130,22 @@
             </div>
           </div>
           <!--The Chair now-->
-          <div class="py-5 profile-box5">
+          <div class="py-5 profile-box5" id="now">
             <div class="container py-6">
               <div class="row">
                 <div class="col-sm-6 text-center">
-                    <h1 class="pb-1 fw-bold pb-5">The Chair Now</h1>
+                    <h1 class="pb-1 fw-bold pb-5 heading">The Chair Now</h1>
                     <iframe width="300" height="200" src="https://www.youtube.com/embed/ZlNQA0dceNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <iframe width="300" height="200" src="https://www.youtube.com/embed/eab9DBEH8tc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <iframe width="300" height="200" src="https://www.youtube.com/embed/SHieC0FxA3w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <iframe width="300" height="200" src="https://www.youtube.com/embed/TUBMc7ymPFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                  </div>
                   <div class="col-sm-6 pt-5 text-center">
-                  <h3 class="fw-bold">The Chair Now</h3>
-                  <p>
-                    The "Vergil Chair" meme then finally reached the climax of it's life-cycle. As users began to take the Veril Chair and remove it from just Devil May Cry 5. It then got expanded to other meme formats or concepts, such as "The Backrooms" from SCP, real life video footage of Chairs (typically overlayed with Vergil's theme "Bury the Light" which also experienced a similar journey in terms of meme cycles), and even a return to modding with people modding Vergil's and his plastic chair as a projectile and even as a modded character to play as in games like "Rivals of Aether".
+                  <h3 class="fw-bold heading">The Chair Now</h3>
+                  <p class="loredrop">
+                    The "Vergil Chair" meme then finally reached the climax of it's life-cycle. As users began to take the Veril Chair and remove it from just Devil May Cry 5. It then got expanded to other meme formats or concepts, such as "The Backrooms" from SCP, real life video footage of Chairs (typically overlayed with Vergil's theme "Bury the Light" which also experienced a similar journey in terms of meme cycles), a return to modding with people modding Vergil's plastic chair as a projectile, and even as a modded character to play as in games like "Rivals of Aether".
                   </p>
-                  <p>
+                  <p class="loredrop">
                     With this, the meme stood where it stands today. As an iconic meme among the Devil May Cry fandom and somewhat known outside of the fandom. This whole journey just goes to show how a little creativity can inspire thousands of people to create content to share. All of this, because somebody put Veril in a plastic chair.
                   </p>
                 </div>
@@ -150,9 +154,9 @@
           </div>
           <!--Extra bits-->  
             <!--To Top-->
-          <a href="">
-            <i class="fa-solid fa-circle-arrow-up"></i>
-            </a>
+          <a href="#navbar">
+            <i class="bi bi-arrow-up-circle-fill to-top text-black"></i>
+          </a>
         
         <!-- JavaScript Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>

@@ -7,31 +7,43 @@
 MISC
 =================================================
 */
-h1{
-  font-family:'Devil May Cry', sans-serif;
-  color:black;
-}
 .to-top{
   position: fixed;
   bottom: 30px;
   right: 30px;
   font-size: 40px;
 }
+/*Typography*/
+.DMC{
+  font-family:'Devil May Cry', sans-serif;
+  color:red;
+  font-size: 50px;
+}
+.loredrop{
+  font-family: 'Righteous';
+}
+.buttons{
+  font-family: 'Audiowide';
+}
+.heading{
+  font-family: 'Teko';
+}
 /*
 background
 */
 body{
-  background: rgb(12,97,110);
-background: linear-gradient(90deg, rgba(12,97,110,1) 0%, rgba(30,11,142,1) 100%);
+  
+background:linear-gradient(90deg, rgba(12,97,110,1) 0%, rgba(202,0,0,1) 50%, rgba(12,97,110,1) 100%);
 }
 /*Boxes*/
 .profile-box1{
-    background-color:lightblue;
+    background-color:linear-gradient(90deg, rgba(12,97,110,1) 0%, rgba(202,0,0,1) 50%, rgba(12,97,110,1) 100%);
     
 }
 .profile-box2{
   background-color: rgb(242, 63, 53);
-  padding-bottom:20px;
+  
+  
 }
 .profile-box3{
   background-color: rgb(106, 183, 202);
